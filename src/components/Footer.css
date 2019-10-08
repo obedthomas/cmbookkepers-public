@@ -1,0 +1,29 @@
+footer {
+  background: var(--dark);
+  font-family: var(--Nunito);
+}
+
+
+footer h1,
+h4 {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.meta p {
+  margin: auto;
+  font-size: .9em;
+  color: rgba(255, 255, 255, 0.2);
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .panel {
+    padding: 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,63 @@
+nav .linky {
+  color: white !important;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+nav .linky:hover {
+  color: var(--primary) !important;
+}
+
+nav {
+  background-color: transparent;
+  transition: all 300ms ease-in-out;
+}
+
+.navbar-nav .nav-item:last-child {
+  padding-right: 2rem;
+}
+
+header .nav-item {
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  transition: all 200ms ease-in-out;
+}
+
+header .navbar-brand {
+  padding-left: 4rem;
+}
+
+header .navbar-brand a {
+  font-size: 1.1em;
+}
+
+header .nav-link:hover {
+  color: var(--primary);
+}
+
+.scrolled {
+  background-color: var(--dark);
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .navbar-nav .nav-item:last-child {
+    padding-right: 0;
+  }
+
+  .navbar-toggler {
+    color: white;
+    background-color: var(--primary);
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .navbar-collapse {
+    background-color: var(--dark);
+
+  }
+}

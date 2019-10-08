@@ -1,0 +1,48 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css?family=Lato|Nunito:400,700,800|Roboto:300,400,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --Lato: "Lato", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --Nunito: "Nunito", sans-serif;
+  --dark: #0a0a0a;
+  --primary: #ffdc73;
+  --secondary: #000b3d;
+  --bggradient: linear-gradient(45deg, rgb(10, 10, 10) 0%, rgb(0, 10, 54) 100%);
+  /* --bggradient: linear-gradient(to bottom, #001333 0%, #080054 100%); */
+  --btngradient: linear-gradient(135deg, #ffdc73 0%, #ffaa00 100%);
+  --light-gray: rgba(255, 255, 255, 0.835);
+}
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  font-family: var(--Nunito);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.modal-content {
+  font-family: var(--Nunito);
+  padding: 20px;
+}
+
+.modal-content h5 {
+  font-weight: 700;
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+
+.modal-body {
+  color: rgba(0, 0, 0, .7);
+  letter-spacing: .07em;
+}

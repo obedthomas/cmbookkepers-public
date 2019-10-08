@@ -1,0 +1,80 @@
+.section2 {
+  background: linear-gradient(60deg, #0a0a0a 0%, #000a36 100%);
+
+}
+
+.section2 .purchase {
+  padding-bottom: 10vmin;
+}
+
+.purchase>h1 {
+  padding-top: 10vmin;
+  padding-bottom: .1em;
+  font-family: var(--Nunito);
+  font-weight: 700;
+  color: white;
+}
+
+.purchase>p {
+  color: var(--primary);
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  max-width: 22rem;
+  margin: 3vmin;
+  background: var(--secondary);
+  font-family: var(--Nunito);
+  min-height: 26rem;
+}
+
+.purchase .cards .title {
+  font-weight: 700;
+}
+
+.purchase .card .title h5 {
+  color: var(--primary);
+}
+
+.purchase .card img {
+  width: 50%;
+  align-self: center;
+}
+
+.purchase .card .btn {
+  display: block;
+  background-image: var(--btngradient);
+  width: 70%;
+  margin: auto;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.purchase .card .btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 20px 36px rgba(0, 0, 0, 0.472);
+}
+
+.purchase .cards .card-text {
+  letter-spacing: .05em;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.purchase .card {
+  transition: all 200ms ease-in-out;
+}
+
+.purchase .card:hover {
+  border: 1px solid var(--primary);
+}
+
+@media only screen and (max-width: 576px) {
+  .purchase .card p {
+    font-size: .9rem;
+  }
+
+  .purchase .card .btn {
+    font-size: .8rem;
+  }
+
+}

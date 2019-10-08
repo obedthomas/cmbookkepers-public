@@ -1,0 +1,36 @@
+.section4 {
+  background: linear-gradient(165deg, #0a0a0a 0%, #000a36 100%);
+}
+
+.section4 .container {
+  height: 60vmin;
+}
+
+.section4 h1 {
+  padding-top: 10vmin;
+  color: white;
+  font-family: var(--Nunito);
+  font-weight: 700;
+}
+
+.section4 p {
+  padding-bottom: 10vmin;
+  color: var(--primary);
+}
+
+.section4 .team {
+  height: 50vmin;
+}
+
+.section4 .card-img-top img {
+  width: 100%;
+  margin: auto;
+}
+
+.section4 .card {
+  padding: 10px;
+  cursor: pointer;
+  background: white;
+  max-width: 9rem;
+  /* border: 1px var(--primary) solid; */
+}
